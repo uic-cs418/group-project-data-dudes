@@ -84,5 +84,6 @@ feature_importance = pd.DataFrame({
 feature_importance['Importance'] = feature_importance['Importance'].round(3) 
 feature_importance = feature_importance.sort_values('Importance', ascending=False)
 
-print("\nTop 5 Important Features:")
+
+print("\nTop 5 Important Features: ")
 print(feature_importance.head(5))
