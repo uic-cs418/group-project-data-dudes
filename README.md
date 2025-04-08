@@ -1,7 +1,7 @@
 <!-- # group-project-data-dudes 
 group-project-data-dudes created by GitHub Classroom -->
 
-# AI Perceptions Across Generations
+# AI Perceptions Across Professions
 
 ## Team Name: DataDUDES
 
