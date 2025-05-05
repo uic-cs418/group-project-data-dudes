@@ -136,7 +136,7 @@ def cluster_and_embed(X, k=3):
     return labels, sizes, X2, centers2
 
 def plot_clusters(X2, labels, centers2, k=3):
-    plt.figure(figsize=(6,5))
+    plt.figure(figsize=(6,4))
     plt.scatter(X2[:,0], X2[:,1], c=labels, cmap='viridis', alpha=0.7)
     plt.scatter(
         centers2[:,0], centers2[:,1],
