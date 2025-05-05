@@ -143,8 +143,8 @@ def plot_clusters(X2, labels, centers2, k=3):
         c='red', marker='X', s=100, edgecolors='k', label='Centroids'
     )
     plt.title(f'K‑Means Clusters (k={k}) in PCA Space')
-    plt.xlabel('PC1')
-    plt.ylabel('PC2')
+    plt.xlabel('Enthusiasm/Comfort on AI')
+    plt.ylabel('Risk/Bias Concerns on AI')
     plt.legend()
     plt.tight_layout()
     plt.show()
